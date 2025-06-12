@@ -67,29 +67,3 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
-
-
------
-
-
-body {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.logo {
-  font-size: 5rem;
-  font-weight: bold;
-  letter-spacing: 0.2rem;
-}
-
-.logo .a { color: #e63946; }  /* Red */
-.logo .e { color: #f1c40f; }  /* Yellow */
-.logo .i { color: #3498db; }  /* Blue */
-.logo .o { color: #2ecc71; }  /* Green */
-.logo .u { color: #9b59b6; }  /* Purple */
