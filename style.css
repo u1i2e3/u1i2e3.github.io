@@ -57,7 +57,7 @@ main {
 .intro-section p {
   font-size: 1.1rem;
   color: #d1d5db;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -66,14 +66,28 @@ main {
 .ai-image {
   width: 100%;
   max-width: 900px;
+  margin: 0 auto 30px;
   display: block;
-  margin: 0 auto;
   border-radius: 12px;
-  position: relative;
-  z-index: 1;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 0) 100%);
   -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 0) 100%);
   background-color: #000;
+}
+
+.ai-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(to bottom, #ccc, #333);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.ai-button:hover {
+  background: linear-gradient(to bottom, #999, #111);
 }
 
 section {
