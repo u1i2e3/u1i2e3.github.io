@@ -125,3 +125,36 @@ footer {
   border-top: 1px solid #1f2937;
   margin-top: 60px;
 }
+
+.references-section {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.references-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.references-list {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+.references-list li {
+  margin-bottom: 15px;
+  padding-left: 8px;
+}
+
+.references-list .author {
+  font-weight: 600;
+  color: #dcdcdc;
+}
