@@ -125,3 +125,21 @@ footer {
   border-top: 1px solid #1f2937;
   margin-top: 60px;
 }
+
+.references {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-top: 40px;
+  background-color: #0f1115;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.references li {
+  margin-bottom: 16px;
+  color: #d1d5db;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
