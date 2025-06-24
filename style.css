@@ -127,6 +127,11 @@ footer {
   margin-top: 60px;
 }
 
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
 .references-section {
   padding: 20px;
   background-color: #1e1e1e;
